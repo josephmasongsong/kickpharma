@@ -4,7 +4,7 @@ import { useForm, ValidationError } from '@statickit/react';
 export default function OptInForm(props) {
   const [state, handleSubmit] = useForm("optInForm");
   if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
+    return <p class="mt-4 text-center text-gray-800">Thank you for subscribing to Kick Pharmaceuticals Inc. updates!</p>;
   }
   return (
     <form onSubmit={handleSubmit} class="mt-6 max-w-md w-full mx-auto">

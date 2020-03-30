@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import OptInForm from '../components/OptInForm'
 const Home = () => (
-  <div className="container mx-auto">
+  <div className="container mx-auto px-4 md:px-0">
     <Head>
-      <title>Create Next App</title>
+      <title>Kick Pharmaceuticals Inc.</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
     <img src="/kick-logo.png" class="max-w-md mx-auto" />

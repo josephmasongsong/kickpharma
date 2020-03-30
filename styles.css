@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:400,700&display=swap');
+
+/* purgecss start ignore */
+@tailwind base;
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+@tailwind components;
+/* purgecss end ignore */
+
+@tailwind utilities;
